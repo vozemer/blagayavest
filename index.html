@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Церковь "Благая Весть"</title>
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
+
+	<style>
+		/* Sections
+		 * --------------------------------------- */
+    .section{
+      background-size: cover;
+    }
+    .slide{
+      background-size: cover;
+    }
+
+    #slide1{
+      background-image: url(./img/1.jpg);
+      /*padding: 6% 0 0 0;*/
+    }
+    #slide2{
+      background-image: url(./img/2.jpg);
+/*      padding: 6% 0 0 0;*/
+    }
+    #slide3{
+      background-image: url(./img/3.jpg);
+/*      padding: 6% 0 0 0;*/
+    }
+    #slide4{
+      background-image: url(./img/4.jpg);
+    }
+    #slide11{
+      background-image: url(./img/history/1.jpg);
+    }
+    #slide12{
+      background-image: url(./img/history/2.jpg);
+    }
+    #slide13{
+      background-image: url(./img/history/3.jpg);
+    }
+    #slide14{
+      background-image: url(./img/history/4.jpg);
+    }
+    #slide15{
+      background-image: url(./img/history/5.jpg);
+    }
+    #slide16{
+      background-image: url(./img/history/6.jpg);
+    }
+    #slide17{
+      background-image: url(./img/history/7.jpg);
+    }
+    #slide18{
+      background-image: url(./img/history/8.jpg);
+    }
+    #slide19{
+      background-image: url(./img/history/9.jpg);
+    }
+    #slide20{
+      background-image: url(./img/history/10.jpg);
+    }
+    #slide31{
+      background-image: url(./img/service/bible.jpg);
+    }
+    #slide32{
+      background-image: url(./img/service/prayer.jpg);
+    }
+    #slide33{
+      background-image: url(./img/service/worship.jpg);
+    }
+    #slide34{
+      background-image: url(./img/service/kids.jpg);
+    }
+
+    .slide p {
+    	font-size: 30px;
+    }
+    .intro p {
+    	font-size: 40px;
+    }
+    	/* Fixed header and footer.
+	* --------------------------------------- */
+	#header, #footer{
+		position:fixed;
+		height: 15%;
+		display:block;
+		width: 100%;
+		background: #fff;
+		z-index:9;
+		text-align:right;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+	}
+
+	#header{
+		top:0px;
+	}
+	#footer{
+		bottom:0px;
+	}
+	.story {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 50%
+		top: 0px;
+		left: 0px;
+		color: black;
+		text-align: left;
+		padding: 20px;
+		background-color: white;
+		opacity: 0.6;	
+	}
+	h2{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:30%;
+		padding:0;
+		background-color: black;
+		opacity: 0.6;
+	}
+    
+	</style>
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="./js/jquery-1.11.2.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/jquery-ui.js"></script>
+
+	<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="./js/examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				 anchors: ['main', 'history', 'service', 'schedule', 'contacts'],
+				menu: '#menu',
+				scrollingSpeed: 1000,
+        controlArrows: true,
+        navigation: true,
+        navigationPosition: 'right'
+
+			});
+		});
+
+	</script>
+
+</head>
+<body>
+<div id="header"><h1 style="font-size: 4em; text-align: center;">Никопольская церковь "Благая Весть"</h1></div>
+<ul id="menu">
+	<li data-menuanchor="main"><a href="#main">Главная</a></li>
+	<li data-menuanchor="history"><a href="#history">История</a></li>
+	<li data-menuanchor="service"><a href="#service">Служения</a></li>
+	<li data-menuanchor="schedule"><a href="#schedule">Расписание</a></li>
+	<li data-menuanchor="contacts"><a href="#contacts">Контакты</a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section active" id="section0">
+		<div class="slide" id="slide1">
+			<div class="intro">
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+			<div class="intro">
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+			<div class="intro">
+			</div>
+		</div>
+		<div class="slide" id="slide4">
+			<div class="intro">
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="slide" id="slide11">
+			<div class="story">
+				<p>Никопольская Церковь «Благая Весть» была основана по воле Божьей пастором Владом Вольвовским весной 2000 года. У истоков Церкви была домашняя группа, на которой собирались верующие, желающие служить Богу и распространять Его Царство.</p>
+			</div>
+		</div>
+		<div class="slide" id="slide12">
+			<div class="story">
+				<p>25 апреля 2002 года Церковь была зарегистрирована в Днепропетровской Областной Государственной Администрации как Церковь Полного Евангелия.</p>
+				<p>В октябре 2003 года Церковь вошла в Союз Евангельских Церквей «Ассоциация «Благая Весть», основателем и старшим пастором которого является авторитетный Божий служитель Рик Реннер. В сентябре 2010 года Никопольская Церковь «Благая Весть» стала действительным членом Союза Евангельских Церквей «Ассоциация «Благая Весть».</p>
+			</div>
+			
+		</div>
+		<div class="slide" id="slide13">
+			<div class="story">
+				<p>Наша церковь в своем вероучении и служении руководствуется канонической Библией, состоящей из 66 книг Ветхого и Нового Заветов. Библия, как Слово Божье, является полным и завершенным откровением Бога и наивысшим авторитетом верующего.</p>
+				<p>Мы исповедуем рождение свыше через принятие Иисуса Христа как личного Спасителя и Господа, водное крещение уверовавших во Христа с полным погружением в воду, крещение Святым Духом со знамением говорения на иных языках. А так же Божественное исцеление через веру в Слово Божье и исцеляющую силу, действие даров Святого Духа, освящение и святость верующих, второе пришествие Господа нашего Иисуса Христа, восхищение Церкви, 1000-летнее правление Христа, воскресение мертвых, вечное осуждение в аду не принявших Христа и не покоряющихся Евангелию, вечное блаженство святых со Христом на небесах.</p>
+			</div>
+		</div>
+		<div class="slide" id="slide14">
+			<div class="story">
+				<p>Основными направлениями служения являются хвала и поклонение, детская воскресная школа, служение для подростков и молодежи, молитва. Церковь проводит таинства, обряды и церемонии: водное крещение, причастие, помазание елеем и возложение рук для исцеления больных, возложение рук для принятия Святого Духа, рукоположение на служение, благословение младенцев и детей, помолвка, бракосочетание, похороны. </p>
+				<p>Все таинства, обряды и церемонии Церковь проводит бесплатно.</p>
+			</div>
+		</div>
+		<div class="slide" id="slide15">
+			<div class="story">
+				<p>Церковь «Благая Весть» известна в городе благодаря проводимым ею различным евангелизационным и благотворительным мероприятиям: Фестиваль молодежной Христианской музыки с участием группы прославления Церкви «Глас Господа» (г. Кривой Рог), служение группы прославления Церкви «Дверь в небо» (г. Днепр), служение группы прославления Церкви «Новое поколение» (г. Марганец).</p>
+				<p>Мы были организаторами концертов легендарной группы «Новый Иерусалим» в Никополе.</p>
+			</div>
+		</div>
+		<div class="slide" id="slide16">
+			<div class="story">
+				<p>Гостями Церкви были такие помазанные Богом служители как старший пастор Церкви «Дверь в небо» (г. Днепр) Юрий Коновалов, пастор Церкви «Эммануил» (г. Днепродзержинск) Вадим Шипилов, пастор Церкви «Дом Хлеба» (г. Кривой Рог) Валерий Григораш, пастор Церкви «Новое поколение» (г. Першотравенск) Андрей Тищенко, лидер движения искателей Бога Сергей Шидловский, пастор Церкви «Добрая Весть» (г. Марганец) Олег Луговской, евангелист Дмитрий Макаренко, пастор Боб Монтгомери (США) и другие.</p>
+			</div>
+		</div>
+		<div class="slide" id="slide17">
+			<div class="story">
+				<p style="font-size: 25px;">Церковь «Благая Весть» проводила евангелизационные мероприятия в клубах «Ровесник» и «Обериг» для учащихся, живущих на поселке Северном и 3-ем микрорайоне. На этих мероприятиях многие школьники призывали Господа Иисуса Христа и получили в подарок Новые Заветы и другую духовную литературу.</p>
+				<p style="font-size: 25px;">Наша группа прославления неоднократно выступала с евангелизационными песнями на городских мероприятиях, провозглашая Царство Божье среди тысяч никопольчан. Также группой прославления нашей Церкви был записан альбом хвалы и поклонения «Господь, я жажду» с приложением к нему текстов песен.</p>
+				<p style="font-size: 25px;">Ежегодно Церковь «Благая Весть» проводит «Праздник Рождества» для детей и взрослых, на котором дети и взрослые имеют возможность услышать Благую Весть об Иисусе Христе в проповеди пастора, песнях прославления, театральных постановках и увлекательных мультфильмах. На «Празднике Рождества» все дети получают бесплатные подарки. Сотни детей получили такие подарки.</p>
+			</div>
+		</div>
+		<div class="slide" id="slide18">
+			<div class="story">
+				<p> «Благая Весть» известна в городе благодаря уличным евангелизационным служениям, на которых проповедуется помазанное слово и распространяется духовная литература.</p>
+				<p>Благодаря телевизионной передаче нашей Церкви жители города и региона получали благословение через вдохновленное и ободряющее слово пастора Влада Вольвовского.</p>
+				<p>Наших прихожан связывают тесные дружеские взаимоотношения. Верующие собираются вместе не только на богослужениях, но и в свободное время: проводят пикники, игры, общения. </p>
+			</div>
+		</div>
+		<div class="slide" id="slide19">
+			<div class="story">
+				<p>Церковь «Благая Весть» осуществляет свое служение за счет добровольных пожертвований.</p>
+				<p>Спасибо всем, кто жертвует и поддерживает это служение. Вы - наши партнеры в деле Божьем!</p>
+				<p>Вместе мы осуществим Его призвание…</p>
+			</div>
+		</div>
+		<div class="slide" id="slide20">
+			<div class="story" >
+				<p style="font-size: 60px;"><b>«Конец дела лучше начала его»</b></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="section" id="section2">
+		<div class="slide" id="slide31">
+			<h2>Слово</h2>
+		</div>
+		<div class="slide" id="slide32">
+			<h2>Молитва</h2>
+		</div>
+		<div class="slide" id="slide33">
+			<h2>Хвала и прославление</h2>
+		</div>
+		<div class="slide" id="slide34">
+			<h2>Детское и подростоковое служения</h2>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro" style="background-image: url(./img/schedule_lr.jpg); background-size: cover; height: 100%; padding-top: 15%;">
+			<h1>Служение</h1>
+			<p>Среда: 18:00</p>
+			<p>Воскресенье: 11:00</p>
+			<h1>Молитва</h1>
+			<p>Пятница: 18:00</p>
+		</div>
+	</div>
+  <div class="section" id="section4">
+		<div class="intro">
+			<h1>Адрес</h1>
+			<p>Никополь, Городской дом культуры</p>
+			<img src="https://static-maps.yandex.ru/1.x/?ll=34.405793,47.5616578&z=17&size=450,450&l=map">
+			<p>Ехать автобусом маршрута 16А, 1</p>
+			<p>Телефон:<p>
+      <a href="tel:+380993096828">+38-099-309-6828</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
